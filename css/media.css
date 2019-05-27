@@ -1,0 +1,290 @@
+@media only screen and (min-width : 1200px) {
+	.map-responsive {
+	    padding-bottom: 60%;
+	}
+	header {
+		background: url("../img/headerone.jpg") 70% center/cover no-repeat;
+	}
+}
+@media only screen and (max-width : 1199px) {
+	section {
+		padding: 80px 0px;
+	}
+	h3 {
+		font-size: 21px;
+	}
+	nav {
+		font-size: 16px;
+	}
+	.menu ul li {
+		letter-spacing: 0;
+	}
+	header {
+		background: url("../img/headerone.jpg") 73% center/cover no-repeat;
+	}
+	header .offset-lg-1 {
+		margin-left: 0px;
+	}
+	.slogan {
+		font-size: 22px;
+		padding-top: 22px;
+		padding-bottom: 16px;
+	}
+	.slogan .upper {
+		font-size: 24px;
+	}
+	#first p {
+		font-size: 18px;
+		line-height: 1.15em;
+	}
+	.partner {
+		height: 250px;
+		line-height: 250px;
+	}
+	#fourth p {
+		font-size: 16px;
+	}
+	.map-responsive {
+	    padding-bottom: 68%;
+	}
+	#fifth {
+		font-size: 15px;
+	}
+}
+@media only screen and (min-width : 992px)  {
+	footer .col-lg-2 {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+		padding-left: 0px;
+	}
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px) { 
+	.next_button, .prev_button {
+	    top: 35%;
+	}
+}
+@media only screen and (max-width : 991px) {
+	h3 {
+		font-size: 15px;
+		padding-top: 20px;
+		padding-bottom: 5px;
+	}
+	section {
+		padding: 50px 0px;
+	}
+	header {
+		background: url("../img/headerone.jpg") 75% center/cover no-repeat;
+	}
+	nav {
+		font-size: 14px;
+	}
+	.slogan {
+		padding-top: 20px;
+		padding-bottom: 8px;
+		font-size: 18px;
+	}
+	.menu ul li {
+		letter-spacing: 0em;
+	}
+	.slogan .upper {
+		font-size: 20px;
+	}
+	#first p {
+		font-size: 14px;
+	}
+	.next_button, .prev_button {
+	    font-size: 26px;
+		padding: 0 8px;
+	}
+	.partner {
+		height: 190px;
+		line-height: 190px;
+	}
+	#fourth p.telephone, .telephone, #fourth p.hours {
+		font-size: 20px;
+	}
+	#fifth {
+		font-size: 14px;
+	}
+	#fifth p, #fifth a {
+		padding-left: 24px;
+	}
+	.map-responsive {
+	    padding-bottom: 104%;
+	}
+	footer span {
+		font-size: 20px;
+	}
+	footer {
+		font-size: 15px;
+	}
+	.time {
+		padding: 7px 0px 7px 40px;
+	}
+}
+@media only screen and (min-width : 768px) and (max-width : 991px) { 
+	#second img {
+		width: 70%;
+	}
+	.next_button, .prev_button {
+	    top: 33%;
+	}
+}
+@media only screen and (max-width : 767px) {
+	h2 {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	h4 {
+		font-size: 14px;
+	}
+	header {
+		background: url("../img/headerone.jpg") 73% center/cover no-repeat;
+		-webkit-transform:scaleX(-1);
+		-moz-transform:scaleX(-1);
+		-ms-transform:scaleX(-1);
+		-o-transform:scaleX(-1);
+		transform:scaleX(-1);
+	}
+	header .container {
+		-webkit-transform:scaleX(-1);
+		-moz-transform:scaleX(-1);
+		-ms-transform:scaleX(-1);
+		-o-transform:scaleX(-1);
+		transform:scaleX(-1);
+	}
+	header .row:nth-child(2) {
+		align-items: flex-end;
+	    height: 60vh;
+    	justify-content: center;
+   }
+	nav {
+		font-size: 16px;
+		letter-spacing: 0;
+	}
+	.slogan {
+		max-width: 200px;
+		font-size: 16px;
+		padding-top: 15px;
+		padding-bottom: 7px;
+	}
+	.slogan p {
+		margin-bottom: 0.6em;
+	}
+	.logo {
+		max-width: 70px;
+	}
+	#first .description p {
+		text-indent: 2.5em;
+		text-align: justify;
+		line-height: 1.4em;
+	}
+	#third {
+		text-align: center;
+	}
+	.partner {
+		margin-bottom: 15px;
+	}
+	#third .partners2 {
+		margin-top: 0px;
+	}
+	#fourth .next_button, .prev_button {
+		top: 38%;
+	}
+	#fifth .col-12.col-md-6:nth-child(2) {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+	}
+	.contacts div, #fifth .office {
+		margin-top: 18px;
+	}
+	.map-responsive {
+	    padding-bottom: 70%;
+	    max-width: 400px;
+	    margin: 0 auto;
+	}
+	footer .col-xl-7 {
+		padding-left: 0;
+		text-align: right;
+	}
+	footer .col-md-3 {
+		text-align: center;
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 575px) {
+	header {
+		background: url("../img/headerone.jpg") 76% center/cover no-repeat;
+	}
+	header .row:nth-child(2) {
+		height: 70vh;
+	}
+	.advantage img {
+		width: 40%;
+		max-width: 150px;
+	}
+	.advantage:nth-child(3) p {
+		margin-bottom: 0;
+	}
+	.subway, .address {
+		padding-top: 3px;
+	}
+	.next_button {
+		right: -10px;
+	}
+	.prev_button {
+		left: -10px;
+	}
+	.partner {
+		margin-bottom: 0;
+	}
+	#fourth p {
+		font-size: 14px;
+	}
+	#fifth {
+		font-size: 14px;
+	}
+	#fifth p, #fifth a {
+		letter-spacing: 0;
+		padding-left: 30px;
+		line-height: 1.5em;
+	}
+	footer .col-12 {
+		text-align: center;
+	}
+	footer .col-xl-2 {
+		margin-top: 15px;
+	}
+}
+@media only screen and (max-width : 414px) {
+	.next_button, .prev_button {
+		top: 38%;
+	}
+}
+@media only screen and (max-width : 384px) {
+	nav {
+		font-size: 14px;
+	}
+	.next_button, .prev_button {
+		top: 35%;
+	}
+	#fourth .next_button, .prev_button {
+		top: 30%;
+	}
+}
+@media only screen and (max-width : 350px) {
+	nav {
+		font-size: 13px;
+	}
+}
